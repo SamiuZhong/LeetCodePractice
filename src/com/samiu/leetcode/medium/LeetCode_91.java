@@ -43,6 +43,6 @@ public class LeetCode_91 {
 
     public static void main(String[] args) {
         LeetCode_91 leetCode_91 = new LeetCode_91();
-        System.out.println(leetCode_91.numDecodings("226"));
+        System.out.println(leetCode_91.numDecodings("2222222222222222"));
     }
 }
