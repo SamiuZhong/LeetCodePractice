@@ -4,8 +4,10 @@ import com.samiu.structure.ListNode;
 
 /**
  * @author Samiu 2020/7/1
+ * @github https://github.com/SamiuZhong
+ * @blog samiu.top
  */
-public class Solution_2 {
+public class LeetCode_2 {
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode dummyHead = new ListNode(0);
@@ -32,8 +34,8 @@ public class Solution_2 {
     }
 
     public static void main(String[] args) {
-        Solution_2 solution_2 = new Solution_2();
-        ListNode.print(solution_2.addTwoNumbers(
+        LeetCode_2 leetCode_2 = new LeetCode_2();
+        ListNode.print(leetCode_2.addTwoNumbers(
                 ListNode.createTestData("[2,4,3]"),
                 ListNode.createTestData("[5,6,4]")
         ));

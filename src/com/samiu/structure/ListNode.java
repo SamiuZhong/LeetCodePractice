@@ -2,6 +2,8 @@ package com.samiu.structure;
 
 /**
  * @author Samiu 2020/7/1
+ * @github https://github.com/SamiuZhong
+ * @blog samiu.top
  */
 public class ListNode {
     public int val;

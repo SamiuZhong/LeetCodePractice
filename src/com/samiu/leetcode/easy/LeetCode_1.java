@@ -6,8 +6,10 @@ import java.util.Map;
 
 /**
  * @author Samiu 2020/7/1
+ * @github https://github.com/SamiuZhong
+ * @blog samiu.top
  */
-public class Solution_1 {
+public class LeetCode_1 {
 
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>();
@@ -23,9 +25,9 @@ public class Solution_1 {
     }
 
     public static void main(String[] args) {
-        Solution_1 solution_1 = new Solution_1();
+        LeetCode_1 leetCode_1 = new LeetCode_1();
         int[] nums = new int[]{2, 7, 11, 15};
         int target = 18;
-        System.out.println(Arrays.toString(solution_1.twoSum(nums, target)));
+        System.out.println(Arrays.toString(leetCode_1.twoSum(nums, target)));
     }
 }
