@@ -1,8 +1,7 @@
-package com.samiu.offer;
+package com.samiu.offer.easy;
 
 /**
  * 剑指Offer 04：https://leetcode-cn.com/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/
- * 难度：easy
  *
  * @author Samiu 2020/7/21
  * @github https://github.com/SamiuZhong

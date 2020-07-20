@@ -1,4 +1,4 @@
-package com.samiu.offer;
+package com.samiu.offer.easy;
 
 import com.samiu.structure.ListNode;
 
@@ -7,7 +7,6 @@ import java.util.Stack;
 
 /**
  * 剑指Offer 06：https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/
- * 难度：easy
  *
  * @author Samiu 2020/7/21
  * @github https://github.com/SamiuZhong

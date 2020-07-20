@@ -1,8 +1,7 @@
-package com.samiu.offer;
+package com.samiu.offer.easy;
 
 /**
  * 剑指Offer 05：https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/
- * 难度：easy
  *
  * @author Samiu 2020/7/21
  * @github https://github.com/SamiuZhong
