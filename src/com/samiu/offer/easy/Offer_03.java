@@ -26,7 +26,7 @@ public class Offer_03 {
      * @return
      */
     private int findRepeatNumber(int[] nums) {
-        Map map = new HashMap();
+        Map<Integer, Integer> map = new HashMap<>(nums.length);
         int result = 0;
         for (int i = 0; i < nums.length; i++)
             if (map.containsKey(nums[i])) {
