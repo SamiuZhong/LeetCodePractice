@@ -15,6 +15,12 @@ public class Offer_05 {
         System.out.println(offer_05.replaceSpace(s));
     }
 
+    /**
+     * 时间复杂度 O(n)
+     * 空间复杂度 O(3n)
+     * @param s
+     * @return
+     */
     private String replaceSpace(String s) {
         int length = s.length();
         char[] array = new char[3 * length];
