@@ -3,7 +3,8 @@ package com.samiu.offer.medium;
 import com.samiu.structure.TreeNode;
 
 /**
- * 剑指Offer 26：https://leetcode-cn.com/problems/shu-de-zi-jie-gou-lcof/
+ * 剑指Offer 26：树的子结构
+ * https://leetcode-cn.com/problems/shu-de-zi-jie-gou-lcof/
  *
  * @author Samiu 2020/7/23
  * @github https://github.com/SamiuZhong

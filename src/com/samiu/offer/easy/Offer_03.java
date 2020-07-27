@@ -4,7 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * 剑指Offer 03：https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/
+ * 剑指Offer 03：数组中重复的数字
+ * https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/
  *
  * @author Samiu 2020/7/21
  * @github https://github.com/SamiuZhong

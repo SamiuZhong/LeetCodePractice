@@ -3,7 +3,8 @@ package com.samiu.offer.easy;
 import com.samiu.structure.ListNode;
 
 /**
- * 剑指Offer 25：https://leetcode-cn.com/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof/
+ * 剑指Offer 25：合并两个排序的链表
+ * https://leetcode-cn.com/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof/
  *
  * @author Samiu 2020/7/23
  * @github https://github.com/SamiuZhong

@@ -3,7 +3,8 @@ package com.samiu.offer.easy;
 import java.util.Stack;
 
 /**
- * 剑指Offer 31：https://leetcode-cn.com/problems/zhan-de-ya-ru-dan-chu-xu-lie-lcof/
+ * 剑指Offer 31：栈混洗的甄别
+ * https://leetcode-cn.com/problems/zhan-de-ya-ru-dan-chu-xu-lie-lcof/
  *
  * @author Samiu 2020/7/24
  * @github https://github.com/SamiuZhong

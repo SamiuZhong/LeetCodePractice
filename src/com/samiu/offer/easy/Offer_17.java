@@ -3,7 +3,8 @@ package com.samiu.offer.easy;
 import java.util.Arrays;
 
 /**
- * 剑指Offer 17：https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/
+ * 剑指Offer 17：打印从1到最大的n位数
+ * https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/
  *
  * @author Samiu 2020/7/23
  * @github https://github.com/SamiuZhong

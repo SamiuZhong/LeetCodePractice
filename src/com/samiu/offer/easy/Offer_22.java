@@ -3,7 +3,8 @@ package com.samiu.offer.easy;
 import com.samiu.structure.ListNode;
 
 /**
- * 剑指Offer 22：https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/
+ * 剑指Offer 22：链表中倒数第k个节点
+ * https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/
  *
  * @author Samiu 2020/7/23
  * @github https://github.com/SamiuZhong

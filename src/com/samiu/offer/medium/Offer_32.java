@@ -5,7 +5,7 @@ import com.samiu.structure.TreeNode;
 import java.util.*;
 
 /**
- * 剑指Offer 32
+ * 剑指Offer 32：从上到下打印二叉树
  * 1：https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/
  * 2：https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof/
  * 3：https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof/
@@ -94,7 +94,7 @@ public class Offer_32 {
                 if (node.right != null)
                     queue.add(node.right);
             }
-            if (res.size()%2==1)
+            if (res.size() % 2 == 1)
                 Collections.reverse(temp);
             res.add(temp);
         }

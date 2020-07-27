@@ -3,7 +3,8 @@ package com.samiu.offer.easy;
 import com.samiu.structure.ListNode;
 
 /**
- * 剑指Offer 24：https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/
+ * 剑指Offer 24：反转链表
+ * https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/
  *
  * @author Samiu 2020/7/23
  * @github https://github.com/SamiuZhong

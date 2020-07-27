@@ -1,7 +1,8 @@
 package com.samiu.offer.easy;
 
 /**
- * 剑指Offer 15：https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/
+ * 剑指Offer 15：二进制中1的个数
+ * https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/
  *
  * @author Samiu 2020/7/22
  * @github https://github.com/SamiuZhong

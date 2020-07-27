@@ -7,7 +7,8 @@ import java.util.Map;
 import java.util.Stack;
 
 /**
- * 剑指Offer 07：https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof/
+ * 剑指Offer 07：重建二叉树
+ * https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof/
  *
  * @author Samiu 2020/7/21
  * @github https://github.com/SamiuZhong

@@ -3,7 +3,8 @@ package com.samiu.offer.easy;
 import com.samiu.structure.ListNode;
 
 /**
- * 剑指Offer 18：https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/
+ * 剑指Offer 18：删除链表的节点
+ * https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/
  *
  * @author Samiu 2020/7/23
  * @github https://github.com/SamiuZhong

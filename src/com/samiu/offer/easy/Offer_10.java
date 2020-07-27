@@ -1,7 +1,8 @@
 package com.samiu.offer.easy;
 
 /**
- * 剑指Offer 10：https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/
+ * 剑指Offer 10：青蛙跳台阶
+ * https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/
  *
  * @author Samiu 2020/7/21
  * @github https://github.com/SamiuZhong

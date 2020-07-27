@@ -1,7 +1,8 @@
 package com.samiu.offer.easy;
 
 /**
- * 剑指Offer 05：https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/
+ * 剑指Offer 05：替换空格
+ * https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/
  *
  * @author Samiu 2020/7/21
  * @github https://github.com/SamiuZhong
@@ -18,6 +19,7 @@ public class Offer_05 {
     /**
      * 时间复杂度 O(n)
      * 空间复杂度 O(3n)
+     *
      * @param s
      * @return
      */

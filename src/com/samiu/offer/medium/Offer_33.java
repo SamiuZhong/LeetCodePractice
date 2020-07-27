@@ -3,7 +3,8 @@ package com.samiu.offer.medium;
 import java.util.Stack;
 
 /**
- * 剑指Offer 33：https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/
+ * 剑指Offer 33：二叉搜索树的后续遍历
+ * https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/
  *
  * @author Samiu 2020/7/24
  * @github https://github.com/SamiuZhong

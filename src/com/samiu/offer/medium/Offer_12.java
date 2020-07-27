@@ -1,7 +1,8 @@
 package com.samiu.offer.medium;
 
 /**
- * 剑指Offer 12：https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/
+ * 剑指Offer 12：矩阵中的路径
+ * https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/
  *
  * @author Samiu 2020/7/21
  * @github https://github.com/SamiuZhong

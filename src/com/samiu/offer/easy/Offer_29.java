@@ -1,7 +1,8 @@
 package com.samiu.offer.easy;
 
 /**
- * 剑指Offer 29：https://leetcode-cn.com/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/
+ * 剑指Offer 29：顺时针打印矩阵
+ * https://leetcode-cn.com/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/
  *
  * @author Samiu 2020/7/23
  * @github https://github.com/SamiuZhong

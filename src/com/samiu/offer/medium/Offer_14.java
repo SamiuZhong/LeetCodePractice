@@ -1,7 +1,8 @@
 package com.samiu.offer.medium;
 
 /**
- * 剑指Offer 14：https://leetcode-cn.com/problems/jian-sheng-zi-lcof/
+ * 剑指Offer 14：剪绳子
+ * https://leetcode-cn.com/problems/jian-sheng-zi-lcof/
  *
  * @author Samiu 2020/7/23
  * @github https://github.com/SamiuZhong

@@ -1,7 +1,8 @@
 package com.samiu.offer.easy;
 
 /**
- * 剑指Offer 04：https://leetcode-cn.com/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/
+ * 剑指Offer 04：二维数组中的查找
+ * https://leetcode-cn.com/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/
  *
  * @author Samiu 2020/7/21
  * @github https://github.com/SamiuZhong

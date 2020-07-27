@@ -1,7 +1,8 @@
 package com.samiu.offer.medium;
 
 /**
- * 剑指Offer 16：https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/
+ * 剑指Offer 16：数值的整数次方
+ * https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/
  *
  * @author Samiu 2020/7/23
  * @github https://github.com/SamiuZhong

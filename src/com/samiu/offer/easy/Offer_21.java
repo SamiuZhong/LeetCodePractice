@@ -5,7 +5,8 @@ import com.samiu.structure.Fun;
 import java.util.Arrays;
 
 /**
- * 剑指Offer 21：https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/
+ * 剑指Offer 21：调整数组顺序使奇数位于偶数前面
+ * https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/
  *
  * @author Samiu 2020/7/23
  * @github https://github.com/SamiuZhong

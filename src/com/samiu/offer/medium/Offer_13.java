@@ -1,7 +1,8 @@
 package com.samiu.offer.medium;
 
 /**
- * 剑指Offer 13：https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/
+ * 剑指Offer 13：机器人的运动范围
+ * https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/
  *
  * @author Samiu 2020/7/21
  * @github https://github.com/SamiuZhong
