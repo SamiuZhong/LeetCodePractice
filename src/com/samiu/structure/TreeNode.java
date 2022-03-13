@@ -11,8 +11,17 @@ public class TreeNode {
     public TreeNode left;
     public TreeNode right;
 
+    public TreeNode() {
+    }
+
     public TreeNode(int val) {
         this.val = val;
+    }
+
+    public TreeNode(int val, TreeNode left, TreeNode right) {
+        this.val = val;
+        this.left = left;
+        this.right = right;
     }
 
     public boolean hasLeftChild() {
@@ -90,9 +99,9 @@ public class TreeNode {
     }
 
     private static void printNode(int val) {
-        StringBuilder res = new StringBuilder(val + "<");
-        int spaceNum = space.length() - res.length();
-        res.append(" ".repeat(Math.max(0, spaceNum)));
-        System.out.println(res);
+//        StringBuilder res = new StringBuilder(val + "<");
+//        int spaceNum = space.length() - res.length();
+//        res.append(" ".repeat(Math.max(0, spaceNum)));
+//        System.out.println(res);
     }
 }
