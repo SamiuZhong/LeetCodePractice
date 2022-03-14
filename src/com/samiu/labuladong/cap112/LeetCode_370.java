@@ -2,10 +2,10 @@ package com.samiu.labuladong.cap112;
 
 import java.util.Arrays;
 
-public class LeetCode_307 {
+public class LeetCode_370 {
 
     public static void main(String[] args) {
-        LeetCode_307 leetCode_307 = new LeetCode_307();
+        LeetCode_370 leetCode_307 = new LeetCode_370();
         int length = 5;
         int[][] updates = new int[][]{
                 {1, 3, 2},
