@@ -1,14 +1,11 @@
 package com.samiu.review;
 
-import com.samiu.structure.ListNode;
+import com.samiu.structure.TreeNode;
 
 class Solution {
 
-    public boolean hasCycle(ListNode head) {
-        ListNode slow = head;
-        ListNode fast = head;
-        while (fast != null) {
 
-        }
+    public void flatten(TreeNode root) {
+
     }
 }
