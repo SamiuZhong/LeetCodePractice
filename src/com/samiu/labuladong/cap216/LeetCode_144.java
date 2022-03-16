@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-public class LeetCode_114 {
+public class LeetCode_144 {
 
     private final List<Integer> list = new ArrayList<>();
 
