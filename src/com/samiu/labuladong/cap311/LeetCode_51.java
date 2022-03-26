@@ -1,10 +1,10 @@
-package com.samiu.review;
+package com.samiu.labuladong.cap311;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-class Solution {
+public class LeetCode_51 {
 
     public List<List<String>> solveNQueens(int n) {
         char[][] board = new char[n][n];
