@@ -1,61 +1,44 @@
 package com.samiu.review;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.HashMap;
 
 class Solution {
 
-    public List<List<String>> solveNQueens(int n) {
-        char[][] board = new char[n][n];
-        for (char[] c : board)
-            Arrays.fill(c, '.');
-        backtrack(board, 0);
-        return lists;
+    public boolean canPartitionKSubsets(int[] nums, int k) {
+        if (k > nums.length) return false;
+        int sum = 0;
+        for (int v : nums) sum += v;
+        if (sum % k != 0) return false;
+
+        int used = 0;
+        int target = sum / k;
+        return backtrack(k, 0, nums, 0, used, target);
     }
 
-    private final List<List<String>> lists = new ArrayList<>();
+    private final HashMap<Integer, Boolean> map = new HashMap<>();
 
-    private void backtrack(char[][] board, int row) {
-        if (row == board.length) {
-            lists.add(chatToList(board));
-            return;
+    private boolean backtrack(int k, int bucketSum, int[] nums, int start, int used, int target) {
+        if (k == 0) return true;
+        if (bucketSum == target) {
+            boolean res = backtrack(k - 1, 0, nums, 0, used, target);
+            map.put(used, res);
+            return res;
         }
 
-        int length = board[row].length;
-        for (int col = 0; col < length; col++) {
-            if (!isValid(board, row, col))
-                continue;
-            board[row][col] = 'Q';
-            backtrack(board, row + 1);
-            board[row][col] = '.';
+        if (map.containsKey(used))
+            return map.get(used);
+
+        for (int i = start; i < nums.length; i++) {
+            if (((used >> i) & 1) == 1) continue;
+            if (nums[i] + bucketSum > target) continue;
+
+            used |= 1 << i;
+            bucketSum += nums[i];
+            if (backtrack(k, bucketSum, nums, i + 1, used, target))
+                return true;
+            used ^= 1 << i;
+            bucketSum -= nums[i];
         }
-    }
-
-    private boolean isValid(char[][] board, int row, int col) {
-        int length = board.length;
-        // 检查列（正上方）否有皇后冲突
-        for (int i = 0; i < length; i++)
-            if (board[i][col] == 'Q')
-                return false;
-
-        // 检查左上方（左斜）是否有皇后冲突
-        for (int i = row - 1, j = col - 1; i >= 0 && j >= 0; i--, j--)
-            if (board[i][j] == 'Q')
-                return false;
-
-        // 检查右上方（右斜）是否有皇后冲突
-        for (int i = row - 1, j = col + 1; i >= 0 && j < length; i--, j++)
-            if (board[i][j] == 'Q')
-                return false;
-
-        return true;
-    }
-
-    private List<String> chatToList(char[][] board) {
-        List<String> list = new ArrayList<>();
-        for (char[] c : board)
-            list.add(String.copyValueOf(c));
-        return list;
+        return false;
     }
 }
